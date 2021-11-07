@@ -3,36 +3,125 @@
         <title>
             Register
         </title>
+
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    
+    <script src="https://kit.fontawesome.com/266a2cf096.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    
     </header>
     <body>
-        <div>
-           <form>
-               <label for="First-name">First name : </label>
-               <input type="text" name="First-name" required><br>
-               <br>
-               <label for="Last-name">Last name : </label>
-               <input type="text" name="Last-name" required><br>
-               <br>
-               <label for="email">Email : </label>
-                <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
-                <br>
-                <label for="phone">Phone number : </label>
-                <input type="tel" placeholder="Phone number" name="phone" id="phone" required"><br>
-                <br>
-                <label for="psw">Password : </label>
-                <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br>
-                <br>
-                <label for="psw-repeat">Repeat Password : </label>
-                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required><br>
-           </form>
+        <div class="container">
+                    <form id="form">
+            <div class="social">
+              <div class="title">Welcome!</div>
+            </div>
+    
+            <div>
+              <label for="firstname">First Name</label>
+              <i class="fas fa-user"></i>
+              <input
+                type="text"
+                name="firstname"
+                id="firstname"
+              />
+              <i class="fas fa-exclamation-circle failure-icon"></i>
+              <i class="far fa-check-circle success-icon"></i>
+              <div class="error"></div>
+            </div>
+
+            <div>
+                <label for="firstname">Last Name</label>
+                <i class="fas fa-user"></i>
+                <input
+                  type="text"
+                  name="lastname"
+                  id="lastname"
+                />
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+              </div>
+    
+            <div>
+              <label for="email">Email</label>
+              <i class="far fa-envelope"></i>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="abc@gmail.com"
+              />
+              <i class="fas fa-exclamation-circle failure-icon"></i>
+              <i class="far fa-check-circle success-icon"></i>
+              <div class="error"></div>
+            </div>
+
+            <div>
+              <label for="password">Password</label>
+              <i class="fas fa-lock"></i>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password here"
+              />
+              <i class="fas fa-exclamation-circle failure-icon"></i>
+              <i class="far fa-check-circle success-icon"></i>
+              <div class="error"></div>
+            </div>
+
+            <div>
+                <label for="password">Confrim password</label>
+                <i class="fas fa-lock"></i>
+                <input
+                  type="password"
+                  name="confirmPassword"
+                  id="confirmPassword"
+                  placeholder="Password here"
+                />
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+              </div>
+    
+            <button type="submit" id="submit">Submit</button>
+          </form>
         </div>
-    </body>
+      </body>
     <footer>
-        <nav>
-            <a href="./about.html">About Us</a>
-            <a href="./contact.html">Contact Us</a>
-            <a href="./index.html">Home</a>
-        </nav>
-        <h2>Abdul Muthalib- 2021 &copy;</h2>
+        <div class="footer-basic">
+            <footer>
+                <div class="social">
+                    <a href="https://instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <i class="icon ion-social-twitter"></i>
+                    </a>
+                    <a href="https://facebook.com" target="_blank">
+                        <i class="icon ion-social-facebook"></i>
+                    </a>
+                </div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="./index.html">Home</a></li>
+                    <li class="list-inline-item"><a href="./index.html">About</a></li>
+                    <li class="list-inline-item"><a href="./contact.html">Contact</a></li>
+                </ul>
+                <p class="copyright"><b>ABDUL MUTHALIB © 2021</b></p>
+            </footer>
+        </div>
+        <script src="./scripts/formVal.js"></script>
+
     </footer>
 </html>
