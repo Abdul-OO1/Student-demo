@@ -9,8 +9,18 @@ form {
   flex-direction: column;
   justify-content: center;
   /* max-width: max-content; */
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 18px 0 #0000002c;
   padding: 50px;
+}
+
+form:hover {
+  box-shadow: 0px 0px 5px 0 #0000002c;
+  transition: 0.2s ease-out;
+  transition-delay: 0s;
+}
+
+#form label {
+  text-align: left;
 }
 
 .title {

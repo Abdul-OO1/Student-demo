@@ -1,0 +1,25 @@
+.course {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url('https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.course img {
+  opacity: 0.5;
+  width: 100%;
+  height: min-content;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+}
+
+.about {
+  color: #fff;
+  position: absolute;
+  top: 450px;
+  left: 0;
+}
