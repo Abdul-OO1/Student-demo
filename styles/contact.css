@@ -1,12 +1,45 @@
 .social i {
+  filter: grayscale(1);
   font-size: 3rem;
-  color: chocolate;
+  color: #f2796e;
+}
+
+.social:hover i {
+  filter: grayscale(0);
+  transition: 0.2s ease-out;
+  transition-delay: 0s;
 }
 
 .social-icon {
+  margin-left: 300;
   display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
 }
 .social {
   height: 50px;
   width: 50px;
+}
+
+.footer-basic {
+  margin-top: 100px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 18px 0 #0000002c;
+  border-radius: 10px;
+  text-align: center;
 }
