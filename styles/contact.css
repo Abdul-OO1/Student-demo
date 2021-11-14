@@ -11,7 +11,7 @@
 }
 
 .social-icon {
-  margin-left: 300;
+  margin-left: 15;
   display: flex;
   text-align: center;
   align-items: center;
@@ -23,9 +23,9 @@
   width: 50px;
 }
 
-.footer-basic {
+/* .footer-basic {
   margin-top: 100px;
-}
+} */
 
 .footer-container {
   display: flex;
@@ -33,7 +33,7 @@
 }
 
 .footer-top {
-  width: 80%;
+  width: 100%;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -41,5 +41,10 @@
   flex-direction: column;
   box-shadow: 0 0 18px 0 #0000002c;
   border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  padding: 50px;
   text-align: center;
 }
