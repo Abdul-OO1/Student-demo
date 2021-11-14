@@ -48,3 +48,13 @@ h1 {
   padding: 50px;
   text-align: center;
 }
+
+h1 a {
+  color: #f2796e;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  text-decoration: none;
+  color: #f2796e;
+}
