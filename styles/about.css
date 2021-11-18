@@ -22,3 +22,23 @@
   top: 450px;
   left: 0;
 }
+
+.about-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.about-box h1 {
+  transition: 0.5s;
+}
+
+.about-box h1:hover {
+  transform: scale(1);
+  cursor: default;
+  color: #f2796e;
+}
